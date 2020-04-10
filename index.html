@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Terminator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div>
+        <button id="spread">Select Spreadsheets</button>
+
+        <div>
+          <button id="rmvList">Remove List</button>
+          <select id="list" multiple>
+    
+    
+          </select>
+        </div>
+      </div>
+
+      <div>
+
+        <button id="loc">Select Output</button>
+
+
+        <div>
+          <button id="rmvOut">Clear List</button>
+          <input id="output" />
+        </div>
+       
+      </div>
+      <div>
+        <button id="start">Start!</button>
+      </div>
+    </div>
+
+  </body>
+</html>
