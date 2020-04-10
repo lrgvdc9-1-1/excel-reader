@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   btnExcel.onclick = ()=>{
     var sheets = dialog.showOpenDialogSync( {
-      properties: ['openFile', 'openDirectory', 'multiSelections']
+      properties: ['openFile', 'multiSelections']
     })
 
     for(var excel in sheets){
