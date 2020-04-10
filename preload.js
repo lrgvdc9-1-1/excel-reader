@@ -82,7 +82,7 @@ window.addEventListener('DOMContentLoaded', () => {
     for(var i = 0; i < lng; i++){
       
       //Extract the name of the spreadsheet...
-      var names = list.options[i].text.split("/")
+      var names = list.options[i].text.split("\\")
       var position = names[names.length - 1].length;
       var final = names[names.length - 1].substring(0,position - 5);
       fs.mkdirSync(`${extractToDirectory}/${final}`);
